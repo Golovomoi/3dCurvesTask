@@ -3,8 +3,6 @@
 #include "headers/Circle.h"
 #include "headers/Ellipse.h"
 #include "headers/Helix.h"
-#define _USE_MATH_DEFINES
-#include <math.h>
 
 void printVector3(Vector3 v)
 {
@@ -13,7 +11,7 @@ void printVector3(Vector3 v)
 
 int main()
 {
-    Ellipse a(13.0f, 25.0f);
+    Helix a(17.0f, 11.0f);
 
     std::cout << "3D Curves : \n";
     printVector3(a.Get3DPoint(M_PI_4));
