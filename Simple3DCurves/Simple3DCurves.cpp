@@ -13,7 +13,7 @@ void printVector3(Vector3 v)
 
 int main()
 {
-    Circle a(13.0f);
+    Ellipse a(13.0f, 25.0f);
 
     std::cout << "3D Curves : \n";
     printVector3(a.Get3DPoint(M_PI_4));
