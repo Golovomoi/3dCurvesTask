@@ -141,9 +141,15 @@
   <ItemGroup>
     <ClCompile Include="Simple3DCurves.cpp" />
     <ClCompile Include="src\BaseCurve.cpp" />
+    <ClCompile Include="src\Circle.cpp" />
+    <ClCompile Include="src\Ellipse.cpp" />
+    <ClCompile Include="src\Helix.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers\BaseCurve.h" />
+    <ClInclude Include="headers\Circle.h" />
+    <ClInclude Include="headers\Ellipse.h" />
+    <ClInclude Include="headers\Helix.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
