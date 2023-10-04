@@ -1,5 +1,6 @@
 #pragma once
 #ifndef _HELIX_
+#define _HELIX_
 
 #include "BaseCurve.h"
 
