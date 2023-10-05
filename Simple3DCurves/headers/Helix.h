@@ -19,6 +19,7 @@ public:
     Helix(double, double);
     Helix();
     ~Helix();
+
 private:
     double _radii;
     double _step;

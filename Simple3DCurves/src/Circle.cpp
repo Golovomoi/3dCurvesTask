@@ -26,14 +26,16 @@ Vector3 Circle::GetFirstDerivative(double t)
     return { dXdT, dYdT, dZdT };
 }
 
-Circle::Circle(double r)
-{
-    _radii = r;
-}
-
 Circle::Circle()
 {
     _radii = 0;
+    _type = 1;
+    _curveTypeName = "Circle";
+}
+
+Circle::Circle(double r) : Circle()
+{
+    _radii = r;
 }
 
 Circle::~Circle()

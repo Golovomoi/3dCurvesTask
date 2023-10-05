@@ -20,6 +20,7 @@ public:
     Ellipse();
     Ellipse(double, double);
     ~Ellipse();
+
 private:
     double _radiiX;
     double _radiiY;

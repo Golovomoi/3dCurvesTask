@@ -40,9 +40,11 @@ Ellipse::Ellipse()
 {
     _radiiX = 0;
     _radiiY = 0;
+    _type = 2;
+    _curveTypeName = "Elipse";
 }
 
-Ellipse::Ellipse(double rX, double rY)
+Ellipse::Ellipse(double rX, double rY) : Ellipse()
 {
     _radiiX = rX;
     _radiiY = rY;

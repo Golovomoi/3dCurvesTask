@@ -36,16 +36,18 @@ Vector3 Helix::GetFirstDerivative(double t)
     return { dXdT, dYdT, dZdT };
 }
 
-Helix::Helix(double r, double s)
-{
-    _radii = r;
-    _step = s;
-}
-
 Helix::Helix()
 {
     _radii = 0;
     _step = 0;
+    _type = 3;
+    _curveTypeName = "Helix";
+}
+
+Helix::Helix(double r, double s) : Helix()
+{
+    _radii = r;
+    _step = s;
 }
 
 Helix::~Helix()
