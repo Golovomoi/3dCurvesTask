@@ -14,8 +14,10 @@ void printVector3(Vector3 v)
 
 int main()
 {
+    int n;
+    std::cout << " set the number of elements: ";
+    std::cin >> n;
     std::srand(std::time(0));
-    int n = 30;
     std::vector<BaseCurve*> firstSet;
 
     for (auto i = 0; i < n; i++){

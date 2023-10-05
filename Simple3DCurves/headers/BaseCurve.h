@@ -16,6 +16,7 @@ public:
     BaseCurve();
     ~BaseCurve();
 
+    //„…„ƒ„„„p„~„p„r„|„y„r„p„u„„ „ˆ„u„~„„„‚ „{„‚„y„r„€„z, „„€ „…„}„€„|„‰„p„~„y„ 0
     void SetCenter(double, double, double);
     Vector3 GetCenter();
 
